@@ -15,10 +15,13 @@ namespace CursoCSharp {
                 {"Notação Ponto-Fundamentos", NotacaoPonto.Executar},
                 {"Lendo dados do Console-Fundamentos", LendoDadosDoConsole.Executar},
                 {"Formatando Número-Fundamentos", FormatandoNumero.Executar},
-                {"Conversões de valores-Fundamentos",Conversoes.Executar}
+                {"Conversões de valores-Fundamentos",Conversoes.Executar},
+                {"Operadores Aritmédicos-Fundamentos",OperadoresAritmeticos.Executar}
             });
 
             central.SelecionarEExecutar();
+            Console.WriteLine("Aperte qualquer tecla para finalizar a execução:");
+            Console.ReadLine();
         }
     }
-}
+} 
