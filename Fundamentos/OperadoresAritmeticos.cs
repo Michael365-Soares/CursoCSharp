@@ -46,6 +46,13 @@ namespace CursoCSharp.Fundamentos {
             Console.ResetColor();
             Console.WriteLine($"O resto da divisão entre {num01} e {num02} é igual a {(num01%num02).ToString("F2")}");
 
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("======Verificando se um número é maior do que o outro:");
+            Console.ResetColor();
+            bool maiorQue = num01 > num02 ? true : false;
+            Console.WriteLine($"O número {num01} é maior que o {num02}? Resposta: {maiorQue}");
+;
         }
     }
 }
