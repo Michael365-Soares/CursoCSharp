@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Fundamentos;
 
 namespace CursoCSharp {
@@ -20,6 +20,12 @@ namespace CursoCSharp {
                 {"Operadores Relacionais-Fundamentos",OperadoresRelacionais.Executar},
                 {"Operadores Lógicos-Fundamentos",OperadoresLogicos.Executar},
                 {"Operadores de Atribuição-Fundamentos",OperadoresAtribuicao.Executar},
+                {"Operadores Unários-Fundamentos",OperadoresUnarios.Executar},
+                {"Operador Ternário-Fundamentos",OperadorTernario.Executar},
+                //Capítulo de Estruturas de Controle
+                {"Estrutura If-EstruturasDeControle",EstruturaIf.Executar},
+                {"Estrutura If/Else-EstruturasDeControle",EstruturaIfElse.Executar},
+                {"Estrutura If/ElseIf-EstruturasDeControle",EstruturaIfElseIf.Executar},
             });
 
             central.SelecionarEExecutar();
