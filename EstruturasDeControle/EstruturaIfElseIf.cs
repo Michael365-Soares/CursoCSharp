@@ -11,7 +11,7 @@ namespace CursoCSharp.EstruturasDeControle {
             double.TryParse(Console.ReadLine(),out double nota);
 
             Console.BackgroundColor = ConsoleColor.Yellow;
-            Console.ForegorundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Black;
 
         }
     }
