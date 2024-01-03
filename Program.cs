@@ -37,8 +37,16 @@ namespace CursoCSharp {
                 //Classes e Métodos 
                 {"Membros-ClassesEMetodos",Membros.Executar},
                 {"Construtores-ClassesEMetodos",Construtores.Executar},
-                {"Métodos com retorno-ClassesEMetodos",MetodosComRetorno.Executar}
-            });
+                {"Métodos com retorno-ClassesEMetodos",MetodosComRetorno.Executar},
+                {"Métodos estáticos-ClassesEMetodos",MetodosEstaticos.Executar},
+                {"Atributos estáticos-ClassesEMetodos",AtributosEstaticos.Executar},
+                {"Desafio Atributo-ClassesEMetodos",DesafioAtributo.Executar},
+                {"Params -ClassesEMetodos",Params.Executar},
+                {"Parâmetros nomeados-ClassesEMetodos",ParametrosNomeados.Executar},
+                {"Métodos Getters and Setters-ClassesEMetodos",GetSet.Executar},
+                {"Props-ClassesEMetodos",Props.Executar},
+                {"ReadOnly-ClassesEMetodos",ReadOnly.Executar}
+        });
 
             central.SelecionarEExecutar();
             Console.WriteLine("Aperte qualquer tecla para finalizar a execução:");

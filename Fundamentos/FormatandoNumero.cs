@@ -26,7 +26,7 @@ namespace CursoCSharp.Fundamentos {
             CultureInfo cultureInfo = new CultureInfo("pt-BR");
             Console.WriteLine(valor.ToString("C2",cultureInfo));
 
-            Console.WriteLine("Inserindo zero a direita de números inteiros....");
+            Console.WriteLine("Inserindo zero a esquerda de números inteiros....");
             int inteiro = 255;
             Console.WriteLine(inteiro.ToString("D10")); ;
         }
