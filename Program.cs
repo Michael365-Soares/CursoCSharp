@@ -45,7 +45,12 @@ namespace CursoCSharp {
                 {"Parâmetros nomeados-ClassesEMetodos",ParametrosNomeados.Executar},
                 {"Métodos Getters and Setters-ClassesEMetodos",GetSet.Executar},
                 {"Props-ClassesEMetodos",Props.Executar},
-                {"ReadOnly-ClassesEMetodos",ReadOnly.Executar}
+                {"ReadOnly-ClassesEMetodos",ReadOnly.Executar},
+                {"Enum-ClassesEMetodos",ExemploEnum.Executar},
+                {"Struct-ClassesEMetodos",ExemploStruct.Executar},
+                {"StructVsClass-ClassesEMetodos",StructVsClass.Executar},
+                {"ValorVsReferencia-ClassesEMetodos",ValorVsReferencia.Executar},
+                {"Parâmtros por referência-ClassesEMetodos",ParametrosPorReferencia.Executar}
         });
 
             central.SelecionarEExecutar();
