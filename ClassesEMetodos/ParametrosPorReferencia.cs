@@ -23,7 +23,7 @@ namespace CursoCSharp.ClassesEMetodos {
             Console.WriteLine(a);
 
             //int b = 2;
-            AlterarOut(out int  b,out int c);
+            AlterarOut(out int b,out int c);
             Console.WriteLine("{0}|{1}",b,c);
 
         }
