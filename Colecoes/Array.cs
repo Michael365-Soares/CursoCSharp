@@ -26,8 +26,11 @@ namespace CursoCSharp.Colecoes {
             }
             Console.WriteLine($"A média geral é de {somatorio/notas.Length}");
 
-            char[] letras = { 'A', 'r', 'r', 'a', 'y' };
-            string palavra = new string(letras);
+            string[,] letras = { 
+                {"A", "Array", "00", "sasa", "dasdsa"},
+                {"56+56+","klçklç","kçlkçl","kjkljçlk","sdsadsa"}
+            };
+            string palavra = new string(letras[0,1].ToString());
             Console.WriteLine(palavra);
 
         }
