@@ -55,7 +55,8 @@ namespace CursoCSharp {
                 {"Parâmetro com Valor Padrão-ClassesEMetodos",ParametroPadrao.Executar},
                 //Coleções
                 {"Estrutura de dados Array-Colecoes",Colecoes.Array.Executar },
-                {"Estrutura de dados List-Colecoes",ColecoesList.Executar}
+                {"Estrutura de dados List-Colecoes",ColecoesList.Executar},
+                {"Estruturas de dados ArrayList-Coleções",ColecoesArrayList.Executar}
         });
 
             central.SelecionarEExecutar();

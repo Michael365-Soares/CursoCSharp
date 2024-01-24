@@ -28,7 +28,8 @@ namespace CursoCSharp.Colecoes {
             Console.WriteLine(carrinhoDeCompra.LastIndexOf(livro));
 
             carrinhoDeCompra.ForEach(p => Console.WriteLine($"O(a) {p.Nome} custa o valor de R$ {p.Preco.ToString("F2")}"));
-            Console.WriteLine(carrinhoDeCompra.GetRange(0,0));
+            var rangeDeProduto = carrinhoDeCompra.GetRange(0,5);
+            rangeDeProduto.ForEach(p=>Console.WriteLine($"O(a) {p.Nome} custa o valor de R$ {p.Preco.ToString("F2")}"));
             Console.WriteLine(carrinhoDeCompra.Remove(carrinhoDeCompra.GetRange(1,3).First()));
             carrinhoDeCompra.ForEach(p => Console.WriteLine($"O(a) {p.Nome} custa o valor de R$ {p.Preco.ToString("F2")}"));
 
